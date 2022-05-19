@@ -9,4 +9,7 @@ sudo apt-get update -y
 sudo apt-get install docker-compose
 
 
+cd TELEBOT
+
+
 docker-compose up --build

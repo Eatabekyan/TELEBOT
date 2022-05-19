@@ -6,7 +6,7 @@ from aiogram import Bot, Dispatcher, executor, types
 
 from parsingpart import newsfunc, FIOfunc
 
-API_TOKEN = '5331365188:AAEKF0vGMx_c9wIORHagM-qWeKalVuuXJoE'
+API_TOKEN = 'TOKEN'
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)

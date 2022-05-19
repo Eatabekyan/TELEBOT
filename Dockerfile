@@ -8,6 +8,7 @@ ENV PATH="/opt/venv/bin:$PATH"
 
 COPY ./requirements.txt requirements.txt
 COPY ./telebot.py telebot.py
+COPY ./parsingpart.py parsingpart.py
 RUN pip3 install -Ur requirements.txt
 
 CMD python3 telebot.py

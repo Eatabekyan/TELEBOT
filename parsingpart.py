@@ -1,7 +1,8 @@
-import logging
 import requests
 
 from bs4 import BeautifulSoup
+
+
 Infostart = 0
 Infoend = 20
 

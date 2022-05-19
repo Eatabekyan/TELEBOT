@@ -1,9 +1,6 @@
 import logging
-import requests
 
-from bs4 import BeautifulSoup
 from aiogram import Bot, Dispatcher, executor, types
-
 from parsingpart import newsfunc, FIOfunc
 
 API_TOKEN = 'TOKEN'

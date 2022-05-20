@@ -1,20 +1,19 @@
 # TELEBOT
-
-git clone https://github.com/Eatabekyan/TELEBOT.git
-
-
-sudo apt-get update -y
+```
+$git clone https://github.com/Eatabekyan/TELEBOT.git
 
 
-sudo apt-get install docker-compose
+$sudo apt-get update -y
 
 
-cd TELEBOT
+$sudo apt-get install docker-compose
 
 
-./run.sh "YOUR TOKEN"
+$cd TELEBOT
 
-![ESA1](https://user-images.githubusercontent.com/99883201/169433282-e99fdf5a-1dce-47cf-bcce-9746aa5f0442.png)
+
+$./run.sh "YOUR TOKEN"
+```
 
 ![ESA2 (1)](https://user-images.githubusercontent.com/99883201/169433326-0ed980ae-00b8-4a11-8fdd-f774e800578a.png)
 
@@ -22,3 +21,10 @@ cd TELEBOT
 
 
 ![ESA4](https://user-images.githubusercontent.com/99883201/169433421-0697725f-2f2b-4b42-b4e3-3c9e10f3338c.png)
+
+```
+@MIPTbotIK
+/start- даёт указания как работать с ботом
+/news- выводит сегдняшние новости МФТИ из mipt.ru
+ФИО- ФИО должно быть обязательно одного из преподователей физтеха. Выводит информацию о нём из сайта wikimipt.org
+```

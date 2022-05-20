@@ -12,4 +12,4 @@ sudo apt-get install docker-compose
 cd TELEBOT
 
 
-docker-compose up --build
+./run.sh "YOUR TOKEN"

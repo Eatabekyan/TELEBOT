@@ -1,7 +1,7 @@
 import logging
 
 from aiogram import Bot, Dispatcher, executor, types
-from parsingpart import newsfunc, FIOfunc
+from src.parsingpart import newsfunc, FIOfunc
 import os
 
 API_TOKEN = os.getenv("BOT_TOKEN")
